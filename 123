@@ -1,3 +1,32 @@
-dfferwereef
-asdfasdf
-Welcome to AI
+1 SELECT
+
+from (
+14
+SELECT distinct
+15
+16
+17
+18
+19
+20
+Min(AS_OF_DT) as Min_As_OF_DT, Max(AS_OF_DT) as Max_As_OF_DT,
+Min(APP_FD_DT) as Min_APP_FD_DT,
+Max(APP_FD_DT) as Max_APP_FD_DT,
+Case when (MOB >=0 and MOB<=6) and B_30_PLUS_CNT =1 then 1 else 0 end as Population _flag, sum(BOOKED_ PTI * CUR_ACCT_BAL_AMT)/sum(CUR_ACCT_BAL_AMT) as WA_BOOKED_PTI,
+sum(BOOKED_DTI * CUR_ACCT_BAL_AMT)/sum(CUR_ACCT_BAL_AMT) as WA_ BOOKED_DTI,
+sum(BOOKED_TERM * CUR_ACCT_BAL_AMT)/sum(CUR_ACCT_BAL_AMT) as WA_BOOKED_TERM,
+sum(fico_score * CUR_ACCT_BAL_AMT)/sum(CUR_ACCT_BAL_AMT) as WA_FICO_ SCR,
+sum(APP_SCR * CUR_ACCT_BAL_AMT)/sum(CUR_ACCT_BAL_AMT) as WA_APP_SCR
+/* JOINS AND MAIN FIELDS */
+a. ARRANGEMENT_ID AS LOAN_ NR,
+a.AS_OF_DT,
+ap.APP_FD_DT,
+/*VOLUME*/
+1 as units,
+V
+2 Unsecured FICO CODE
+Select destination and press ENTER or choose Paste
+2 Unsecured FICO OUTPUT
+3 Auto DLQ Segments CODE
+3 Auto DLQ Segments SI
+4 Unsc EstCuml - +
