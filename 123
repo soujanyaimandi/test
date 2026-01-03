@@ -1,14 +1,9 @@
 1 SELECT
 
 from (
-14
+
 SELECT distinct
-15
-16
-17
-18
-19
-20
+
 Min(AS_OF_DT) as Min_As_OF_DT, Max(AS_OF_DT) as Max_As_OF_DT,
 Min(APP_FD_DT) as Min_APP_FD_DT,
 Max(APP_FD_DT) as Max_APP_FD_DT,
